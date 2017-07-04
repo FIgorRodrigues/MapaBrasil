@@ -1,0 +1,61 @@
+body{
+	overflow: hidden;
+}
+
+.mapa{
+	left: 0;
+	height: 100vh;
+}
+
+#select1{
+	position: absolute;
+	top:2%;
+}
+#select2{
+	position: absolute;
+	top:2%;
+}
+
+.estado-cidade{
+	position:relative;
+	top: 2%;
+	z-index: 1;
+	line-height: 1.2;
+	color: #555;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fbfbfb;
+	box-shadow: 7px 6px 10px #777777;	
+}
+
+@media all and (max-width: 565px){
+#estado{
+ 	height: 23px;
+ 	font-size: 10px;
+ 	padding: 1px 12px;
+ 	width: 130px;
+ 	margin-left: 5%;
+ }
+ #cidade{
+ 	height: 23px;
+ 	font-size: 10px;
+ 	padding: 1px 7px;
+ 	width: 130px;
+ 	margin-left: 27%;
+ }
+}
+
+@media all and (min-width: 2560px){
+#estado{
+	height: 80px;
+	left: -80%;
+	border-radius: 10px;
+	font-size: 2em;
+}
+ #cidade{
+ 	height: 80px;
+ 	left: -70%;
+ 	border-radius: 10px;
+	font-size: 2em;
+ }
+}
