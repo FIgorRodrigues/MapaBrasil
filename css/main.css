@@ -45,7 +45,7 @@ body{
  }
 }
 
-@media all and (min-width: 2560px){
+@media all and (min-width: 1960px){
 #estado{
 	height: 80px;
 	left: -80%;
